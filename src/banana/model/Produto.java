@@ -8,6 +8,7 @@ public class Produto {
 	private double preco;
 	private boolean onLine;
 
+	//Construtores
 	public Produto() {
 
 	}
@@ -27,8 +28,9 @@ public class Produto {
 		this.onLine = onLine;
 	}
 
+	// Métodos Getters e Setters
 	public int getIdProduto() {
-		return this.idProduto;
+		return idProduto;
 	}
 
 	public void setIdProduto(int idProduto) {
